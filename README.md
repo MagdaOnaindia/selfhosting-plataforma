@@ -9,7 +9,8 @@ El sistema se basa en un patrón de túnel inverso desacoplado:
 1.  **Broker (VPS):** Un servicio público que actúa como punto de entrada. Su función es autenticar agentes y enrutar peticiones a través de túneles seguros. No procesa ni almacena los datos de las aplicaciones.
 2.  **Agent (Servidor Local):** Un servicio ligero que se ejecuta en el hardware del usuario. Inicia una conexión de salida persistente hacia el Broker, recibe las peticiones y las dirige a los contenedores Docker locales a través de un reverse proxy interno.
 
-![Diagrama de Arquitectura](docs/diagrams/architecture-overview.png)
+<img width="945" height="948" alt="image" src="https://github.com/user-attachments/assets/df12e76c-3e57-4ec5-80de-2847c847ab30" />
+
 
 ## Pila Tecnológica
 
